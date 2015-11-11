@@ -1,5 +1,5 @@
 # IllustratorScripts
-This repository contains all scripts that is useful for designing with Adobe Illustrator, especially when design sensor with silver nano-particle ink.
+This repository contains all scripts that are useful for designing with Adobe Illustrator, especially when design sensor with silver nano-particle ink.
 
 ##[Interdigital Capacitor Design - IDC.js](https://github.com/tatung/IllustratorScripts/blob/master/IDC.js)
 Interdigital Capacitor (IDC) is a type of single layer capacitor that can be fabricated on 1 flat surface (2D). Normally, IDC is fabricated on PCB board, but with silver nano-particle ink technology, one can print IDC on paper with inkjet printer - [Instant Inkjet Circuits](http://dl.acm.org/citation.cfm?id=2493432.2493486).
