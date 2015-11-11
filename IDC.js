@@ -38,38 +38,38 @@ list.minimumSize.width = 220;
 // add textbox
 groupLayer = main.add ("group {alignChildren: 'right', orientation: 'row'}");
 groupLayer.add("statictext", undefined, "IDC Length: ");
-idcLength = groupLayer.add ("edittext", [0, 0, 170, 22], "200");// groupLayer.layout.layout();
-idcLength.active = true; // this line must follow w.layout.layout()
+idcLength = groupLayer.add ("edittext", [0, 0, 170, 22], "200");
+idcLength.active = true; 
 
 groupLayer = main.add ("group {alignChildren: 'right', orientation: 'row'}");
 groupLayer.add("statictext", undefined, "Number of Fingers: ");
-fingerNo = groupLayer.add ("edittext", [0, 0, 170, 22], "NULL");// groupLayer.layout.layout();
-fingerNo.active = true; // this line must follow w.layout.layout()
+fingerNo = groupLayer.add ("edittext", [0, 0, 170, 22], "NULL");
+fingerNo.active = true;
 
 groupLayer = main.add ("group {alignChildren: 'right', orientation: 'row'}");
 groupLayer.add("statictext", undefined, "Finger width: ");
-fingerWidth = groupLayer.add ("edittext", [0, 0, 170, 22], "1");// groupLayer.layout.layout();
-fingerWidth.active = true; // this line must follow w.layout.layout()
+fingerWidth = groupLayer.add ("edittext", [0, 0, 170, 22], "1");
+fingerWidth.active = true;
 
 groupLayer = main.add ("group {alignChildren: 'right', orientation: 'row'}");
 groupLayer.add("statictext", undefined, "Finger length: ");
-fingerLength = groupLayer.add ("edittext", [0, 0, 170, 22], "20");// groupLayer.layout.layout();
-fingerLength.active = true; // this line must follow w.layout.layout()
+fingerLength = groupLayer.add ("edittext", [0, 0, 170, 22], "20");
+fingerLength.active = true;
 
 groupLayer = main.add ("group {alignChildren: 'right', orientation: 'row'}");
 groupLayer.add("statictext", undefined, "Finger gap: ");
-fingerGap = groupLayer.add ("edittext", [0, 0, 170, 22], "1");// groupLayer.layout.layout();
-fingerGap.active = true; // this line must follow w.layout.layout()
+fingerGap = groupLayer.add ("edittext", [0, 0, 170, 22], "1");
+fingerGap.active = true;
 
 groupLayer = main.add ("group {alignChildren: 'right', orientation: 'row'}");
 groupLayer.add("statictext", undefined, "Frame width: ");
-frameWidth = groupLayer.add ("edittext", [0, 0, 170, 22], "1");// groupLayer.layout.layout();
-frameWidth.active = true; // this line must follow w.layout.layout()
+frameWidth = groupLayer.add ("edittext", [0, 0, 170, 22], "1");
+frameWidth.active = true;
 
 groupLayer = main.add ("group {alignChildren: 'right', orientation: 'row'}");
 groupLayer.add("statictext", undefined, "Finger-Frame gap: ");
-fingerFrameGap = groupLayer.add ("edittext", [0, 0, 170, 22], "1");// groupLayer.layout.layout();
-fingerFrameGap.active = true; // this line must follow w.layout.layout()
+fingerFrameGap = groupLayer.add ("edittext", [0, 0, 170, 22], "1");
+fingerFrameGap.active = true;
 
 
 // add checkbox
